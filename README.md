@@ -14,3 +14,20 @@ Enrichir les événements préalablement traités, à travers diverses opératio
 Etiqueter les événements traités et enrichis, qui consiste à vérifier leurs informations afin de valider leur degré de dangerosité, puis de les étiqueter en fonction des résultats du processus de vérification. De cette façon, en cas de faille de sécurité suite à l’ingestion d’un événement, le système sera en mesure d’éviter que des événements similaires se reproduisent à l’avenir.
 
 Stocker les événements télémétriques préalablement capturés, traités, enrichis et étiquetés au sein d’un « coffre » appelé Security Data Vault (HDFS, etc…) ou d’un magasin PCAP dans le cas de gros paquets réseaux. Les événements ayant levé des alertes sont indexés dans un magasin d’alertes.
+
+
+
+Build du projet complet avec les tests :
+```
+$ mvn clean install
+```
+
+Build sans tests :
+```
+$ mvn clean install -DskipTests
+```
+
+Build avec le profil HDP :
+```
+$ mvn clean install -PHDP-2.5.0.0
+```
