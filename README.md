@@ -1,5 +1,5 @@
 # Big_data_Security
-
+# Introduction
 Le déploiement de metron mettra en place 2cluster (hdp et hdf) , Comme on peut le noter ci-dessus, Apache Metron agit comme un pipeline de traitement de flux de sécurité en temps-réel destiné à :
 
 Capturer les événements télémétriques générés par les diverses classes de sources de données ingérées. Durant cette phase Metron utilise son propre composant d’ingestion ou des outils comme Apache NiFi pour traiter les flux de données à travers leurs propres topics Kafka. Metron peut également traiter de gros volumes d’événements comme PCAP, NetFlow,… à partir d’un TAP réseau.
